@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="container_menu">
+      <img src="images/logo.svg" alt="">
+      <input type="checkbox" id="check">
+      <label class="mostrar" for="check">
+        &#8801
+      </label>
+      <nav class="menu">
+        <section class="separar">
+          <label for="check" class="ocultar">&#215</label>
+          <div class="select">
+            <select name="" id="selector-one">
+              <option value="" selected hidden>Feacture</option>
+              <option value=""><img src="images/icon-todo.svg" alt="">Todo List</option>
+              <option value=""><img src="images/icon-calendar.svg" alt="">Calendar</option>
+              <option value=""><img src="images/icon-reminders.svg" alt="">Reminders</option>
+              <option value=""><img src="images/icon-planning.svg" alt="">Plannig</option>
+            </select>
+            <select name="" id="selector-two">
+              <option value="" selected hidden>Company</option>
+              <option value="">History</option>
+              <option value="">Our team</option>
+              <option value="">Blog</option>
+            </select>
+          </div>
+          <div class="h4">
+            <h4>Carreers</h4>
+            <h4>Abaout</h4>
+          </div>
+        </section>
+        <section>
+        <div class="create">
+          <h3 class="h3-one">Login</h3>
+          <h3 class="h3-two">Register</h3>
+        </div>
+      </section>
+      </nav>
+    </div>
+  </header>
+  <section class="info">
+    <div class="imagen">
+      <img class="img-two" src="images/image-hero-mobile.png" height="300px" alt="">
+    </div>
+    <div class="title">
+      <h1 class="texto-one">Make<br>remote work</h1>
+      <h1 class="texto-two">Make remote work</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Quaerat deleniti hic in commodi asperiores enim
+        tempore rerum. <br> Iure consectetur laboriosam doloribus incidunt sequi ipsum commodi, <br> eum, saepe
+        praesentium, dicta voluptatibus.</p>
+      <br>
+      <h2>Learn more</h2>
+      <div class="iconos">
+        <img src="images/client-databiz.svg" alt="">
+        <img src="images/client-audiophile.svg" alt="">
+        <img src="images/client-meet.svg" alt="">
+        <img src="images/client-maker.svg" alt="">
+      </div>
+    </div>
+    <div class="imagen">
+      <img class="img-one" src="images/image-hero-desktop.png" height="700px" alt="">
+    </div>
+  </section>
+
+</body>
+
+</html>
