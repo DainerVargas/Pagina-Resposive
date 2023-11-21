@@ -1,3 +1,7 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 header,.nav,.create,.h4{
     display: flex;
     justify-content: center;
@@ -21,8 +25,12 @@ header,.container_menu{
 }
 #selector-one, #selector-two{
     border: none;
+    outline: none;
+    appearance: none;
     cursor: pointer;
     background-color: transparent;
+    font-size: 1.2vw;
+    font-weight: bold;
 }
 #selector-one{
     margin-right: 20px;
@@ -70,9 +78,6 @@ header,.container_menu{
 }
 .img-two{
     display: none;
-}
-.title{
-
 }
 .title h1{
     font-weight:bold;
@@ -165,6 +170,9 @@ header,.container_menu{
         justify-content: center;
         flex-direction: column;
     }
+    .h4 h4{
+        margin-right: 6vw;
+    }
    
     .ocultar{
         position: absolute;
@@ -174,7 +182,8 @@ header,.container_menu{
     .select{
         display: flex;
         justify-content: center;
-        flex-direction: column; 
+        flex-direction: column;
+        gap: 7vw; 
     }
     .h3-two{
         padding: 80px 20px;
@@ -225,6 +234,9 @@ header,.container_menu{
     }
     .iconos{
         margin-top: 40px;
+    }
+    #selector-one, #selector-two{
+        font-size: 4vw;
     }
 }
 
